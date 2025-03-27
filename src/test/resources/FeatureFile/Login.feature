@@ -26,8 +26,14 @@ Examples:
 |USERNAME|PASSWORD|
 |"standard_user" | "Laxmi@123"|
 |"Laxmi" |"secret_sauce"|
-|"Laxmi" | "Laxmi@123"|
+|"Laxmi" | "Laxmi@123456"|
 
 
-
+@Smoke @Regression
+Scenario: Verify login functionality with valid credentials
+Given user is on login page
+When user enters username as "standard_user"  
+And user enters password as "secret_sauce"
+And user clicks on login button
+Then user should be navigated to dashboard page
 
