@@ -4,8 +4,7 @@
 @Login
 Feature: Login Page feature
 
-
-@Smoke 
+@Smoke
 Scenario: Verify login functionality with valid credentials
 Given user is on login page
 When user enters username as "standard_user"  
@@ -27,7 +26,6 @@ Examples:
 |"standard_user" | "Laxmi@123"|
 |"Laxmi" |"secret_sauce"|
 |"Laxmi" | "Laxmi@123"|
-
 
 
 

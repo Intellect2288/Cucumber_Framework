@@ -30,3 +30,12 @@ Scenario: Verify login Page Title of Make my Trip
 Given user hits the URL as "https://www.makemytrip.com/"
 Then title of the login page is displayed as "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday"
 
+@Regression @Redbus
+Scenario: Verify login Page Title of Redbus
+Given user hits the URL as "https://www.redbus.in/"
+Then title of the login page is displayed as "Bus Ticket Booking Online at Cheapest Price with Top Bus Operators - redBus"
+
+@Smoke @Regression @Flipkart
+Scenario: Verify login Page Title of Flipkart
+Given user hits the URL as "https://www.flipkart.com/"
+Then title of the login page is displayed as "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!"
