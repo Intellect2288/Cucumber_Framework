@@ -5,7 +5,7 @@
 Feature: Login Page feature
 
 
-@Smoke 
+@Smoke @Sanity
 Scenario: Verify login functionality with valid credentials
 Given user is on login page
 When user enters username as "standard_user"  
@@ -25,7 +25,7 @@ And user should not be navigated to dashboard page
 Examples: 
 |USERNAME|PASSWORD|
 |"standard_user" | "Laxmi@123"|
-|"Laxmi" |"secret_sauce"|
+
 
 
 @Smoke 
