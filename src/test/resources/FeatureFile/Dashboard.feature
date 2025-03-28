@@ -18,4 +18,9 @@ Then Title of the dashboard page is displayed as "Swag Lab"
 @Smoke
 Scenario: Verify add to cart button is displayed for the product displayed 
 Then Add to Cart button is displayed
+
+
+@Smoke @Duplicate
+Scenario: Verify add to cart button is displayed for the product displayed 
+Then Add to Cart button is displayed
  
