@@ -36,3 +36,9 @@ Scenario: Verify login Page Title of Make my Trip
 Given user hits the URL as "https://www.makemytrip.com/"
 Then title of the login page is displayed as "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday"
 
+
+@Smoke @Sanity @MMT @Duplicate2
+Scenario: Verify login Page Title of Make my Trip
+Given user hits the URL as "https://www.makemytrip.com/"
+Then title of the login page is displayed as "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday"
+
