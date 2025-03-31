@@ -1,13 +1,13 @@
 package org.TestRunner;
 
-import org.junit.runner.RunWith;
+//import org.junit.runner.RunWith;
 //import org.testng.annotations.DataProvider;
 
-import io.cucumber.junit.Cucumber;
-//import io.cucumber.testng.AbstractTestNGCucumberTests;
-import io.cucumber.junit.CucumberOptions;
+//import io.cucumber.junit.Cucumber;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
 
-@RunWith(Cucumber.class)
+//@RunWith(Cucumber.class)
 @CucumberOptions
 (
 	features = {"src/test/resources/FeatureFile/Login.feature"},
@@ -28,9 +28,9 @@ import io.cucumber.junit.CucumberOptions;
 	}
 	
 )
-public class TestRunner
+public class Test extends AbstractTestNGCucumberTests 
 {
-//	
+	
 //	@Override
 //	@DataProvider(parallel=true)
 //	public Object[][] scenarios()
