@@ -14,7 +14,7 @@ And user clicks on login button
 Then user should be navigated to dashboard page
 
 
-@Regression
+@Regression @Smoke
 Scenario Outline: Verify login functionality with negative credentials
 Given user is on login page
 When user enters username as <USERNAME>   
