@@ -4,8 +4,10 @@
 @Login
 Feature: Login Page feature
 
+<<<<<<< HEAD
 
 @Smoke @Sanity
+@Smoke
 Scenario: Verify login functionality with valid credentials
 Given user is on login page
 When user enters username as "standard_user"  
